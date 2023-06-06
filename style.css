@@ -1,1 +1,73 @@
+/* Basic styling */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.main {
+  margin: 20px;
+}
+
+/* Home page styling */
+
+.hero {
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 50px 0;
+}
+
+.hero h1 {
+  font-size: 36px;
+}
+
+.featured-games {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.game-card {
+  display: inline-block;
+  margin: 10px;
+}
+
+.game-card a {
+  display: block;
+  text-decoration: none;
+  color: #333;
+}
+
+.game-card img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.game-card h3 {
+  font-size: 18px;
+}
 
